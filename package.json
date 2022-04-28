@@ -1,0 +1,35 @@
+{
+  "name": "servertcc",
+  "version": "1.0.0",
+  "description": "Server used to Server Nodejs for interact with mobile application and a embedded system.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabioJrRossi/ServerTcc.git"
+  },
+  "keywords": [
+    "server",
+    "express",
+    "node",
+    "rest",
+    "mongodb"
+  ],
+  "author": "Fabio Junior Rossi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabioJrRossi/ServerTcc/issues"
+  },
+  "homepage": "https://github.com/FabioJrRossi/ServerTcc#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "mongoose": "^6.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
